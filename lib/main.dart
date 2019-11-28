@@ -16,7 +16,11 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
-      home: ScopedModelView(),
+//      home: InheritedCounterView(),
+//      home: ScopedModelView(),
+//      home: ProviderView(),
+//      home: BlocCounterView(),
+      home: BlocManuallyCounterView(),
     );
   }
 }
